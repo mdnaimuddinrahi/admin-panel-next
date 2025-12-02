@@ -20,7 +20,7 @@ export default function UserListPage() {
       {/* <h1 className="text-2xl font-bold mb-4">Users</h1>z */}
 
       <FilterBar filters={filters} setFilters={setFilters} />
-
+        
       <div className="mt-6 bg-white border rounded-xl shadow-sm">
         <UserTable filters={filters} />
       </div>

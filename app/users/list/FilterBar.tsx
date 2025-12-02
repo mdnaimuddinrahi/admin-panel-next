@@ -44,7 +44,6 @@ export default function FilterBar({ filters, setFilters }: any) {
       <div>
         <label className="block text-xs font-semibold mb-1">Role</label>
         <Select
-          isMulti
           value={filters.role}
           options={roleOptions}
           className="w-48 text-sm"
